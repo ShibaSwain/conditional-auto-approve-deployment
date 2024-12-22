@@ -1,0 +1,17 @@
+name: 'Conditional Auto Approve Deployment Action'
+description: 'Conditional Auto Approve Deployment requests pending in the github workflows'
+author: 'Shiba Prasad Swain'
+
+inputs:
+  name:
+    description: 'The name of the person to greet'
+    required: true
+    default: 'Mona the Octocat'
+
+branding:
+  icon: 'activity'
+  color: 'green'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
